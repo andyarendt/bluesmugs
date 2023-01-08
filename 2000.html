@@ -7,6 +7,15 @@
     <link rel="shortcut icon" href="images/mugfavicon.ico">
     <title>2000 - St. Louis Blues Maxwell House Coffee Mug Night</title>
     <style type="text/css">
+        body {
+            background-color: #000061;
+            color: white;
+        }
+        .content {
+            max-width: 500px;
+            margin: auto;
+            text-align: center;
+        }
         table, td {
             border: 1px solid;
             text-align: center;
@@ -19,9 +28,100 @@
             border: 1px solid;
             padding: 10px;
         }
+        a.eighties {
+            padding: 0.5rem 14rem;
+            border-radius: 5px;
+            background-color: #000b7b;
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 0 0 2.5px white,
+            0 0 0 8px #e39311;
+        }
+        a:focus.eighties {
+            color: yellow;
+        }
+        a:hover.eighties {
+            background-color: #010c8e;
+        }
+        a:active.eighties {
+            color: yellow;
+        }
+        a.nineties {
+            padding: 0.5rem 14rem;
+            border-radius: 5px;
+            background-color: #000b7b;
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 0 0 2.5px #ffc600,
+            0 0 0 8px #bd2108;
+        }
+        a:focus.nineties {
+            color: yellow;
+        }
+        a:hover.nineties {
+            background-color: #010c8e;
+        }
+        a:active.nineties {
+            color: yellow;
+        }
+        a.earlytwothousands {
+            padding: 0.5rem 14rem;
+            border-radius: 5px;
+            background-color: #0131ad;
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 0 0 2.5px #ffc600,
+            0 0 0 8px #000342;
+        }
+        a:focus.earlytwothousands {
+            color: yellow;
+        }
+        a:hover.earlytwothousands {
+            background-color: #0138c2;
+        }
+        a:active.earlytwothousands {
+            color: yellow;
+        }
+        a.latetwothousands {
+            padding: 0.5rem 14rem;
+            border-radius: 5px;
+            background-color: #000342;
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 0 0 2.5px #ffb300,
+            0 0 0 8px white;
+        }
+        a:focus.latetwothousands {
+            color: yellow;
+        }
+        a:hover.latetwothousands {
+            background-color: #01055a;
+        }
+        a:active.latetwothousands {
+            color: yellow;
+        }
+        a.home {
+            padding: 0.5rem 14rem;
+            border-radius: 5px;
+            background-color: white;
+            color: #020c42;
+            text-decoration: none;
+            box-shadow: 0 0 0 2.5px white,
+            0 0 0 8px white;
+        }
+        a:focus.home {
+            color: yellow;
+        }
+        a:hover.home {
+            background-color: rgb(223, 223, 223);
+        }
+        a:active.home {
+            color: yellow;
+        }
     </style>
 </head>
 <body>
+    <div class="content">
     <header>
         <h1>2000 - 13th Annual Maxwell House Blues Mug Night</h1>
     </header>
@@ -46,15 +146,17 @@
             <td>2-1 Blues</td>
         </tr>
     </table>
-    <br>
+    <br><br>
     <nav>
-        <a href="/bluesmugs/1999.html">&lt; 1999</a>
-        <a href="/bluesmugs/2001.html">2001 &gt;</a>
-        <br>
-        <a href="/bluesmugs/index.html">Home</a>
+        <a href="/bluesmugs/1999.html" class="earlytwothousands">&lt; 1999</a>
+        <br><br><br>
+        <a href="/bluesmugs/2001.html" class="earlytwothousands">2001 &gt;</a>
+        <br><br><br>
+        <a href="/bluesmugs/index.html" class="home">Home</a>
     </nav>
     <footer>
         <p><small>Last updated: <time datetime="2023-01">January 2023</time></small></p>
     </footer>
+    </div>
 </body>
 </html>
