@@ -2,31 +2,41 @@ body {
     background-color: #00072a;
     color: white;
 }
+
 .content {
-    max-width: 500px;
+    max-width: 340px;
     margin: auto;
-}
-.responsive {
-    max-width: 100%;
-    height: auto;
-}
-table, td {
-    border: 1px solid;
     text-align: center;
 }
+
+.responsive {
+    max-width: 340px;
+    height: auto;
+}
+
+table.mobile {
+    border: 1px solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 th {
     border: 1px solid;
-    padding: 10px; 
+    padding: 10px 5px 10px;
 }
+
 td {
     border: 1px solid;
-    padding: 10px;
+    padding: 10px 72px 10px;
 }
+
 nav {
     text-align: center;
 }
+
 a.eighties {
-    padding: 0.5rem 13.5rem;
+    padding: 0.5rem 8.7rem;
     border-radius: 5px;
     background-color: #000b7b;
     color: white;
@@ -41,7 +51,7 @@ a:active.eighties {
     background-color: #00096b;
 }
 a.nineties {
-    padding: 0.5rem 13.5rem;
+    padding: 0.5rem 8.7rem;
     border-radius: 5px;
     background-color: #000b7b;
     color: white;
@@ -56,7 +66,7 @@ a:active.nineties {
     background-color: #00096b;
 }
 a.earlytwothousands {
-    padding: 0.5rem 13.5rem;
+    padding: 0.5rem 8.7rem;
     border-radius: 5px;
     background-color: #0131ad;
     color: white;
@@ -71,7 +81,7 @@ a:active.earlytwothousands {
     background-color: #002687;
 }
 a.latetwothousands {
-    padding: 0.5rem 13.5rem;
+    padding: 0.5rem 8.7rem;
     border-radius: 5px;
     background-color: #000342;
     color: white;
@@ -97,4 +107,112 @@ a:hover.home {
 }
 a:active.home {
     background-color: rgb(179, 179, 179);
+}
+
+@media only screen and (min-width: 768px) {
+    .content {
+        max-width: 480px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .responsive {
+        max-width: 480px;
+        height: auto;
+    }
+
+    table.mobile {
+        border: 1px solid;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    th {
+        border: 1px solid;
+        padding: 10px 44px 10px;
+    }
+    
+    td {
+        border: 1px solid;
+        padding: 10px 111px 10px;
+    }
+    
+    nav {
+        text-align: center;
+    }
+    
+    a.eighties {
+        padding: 0.5rem 13.0rem;
+        border-radius: 5px;
+        background-color: #000b7b;
+        color: white;
+        text-decoration: none;
+        box-shadow: 0 0 0 2.5px white,
+        0 0 0 8px #e39311;
+    }
+    a:hover.eighties {
+        background-color: #010c8e;
+    }
+    a:active.eighties {
+        background-color: #00096b;
+    }
+    a.nineties {
+        padding: 0.5rem 13.0rem;
+        border-radius: 5px;
+        background-color: #000b7b;
+        color: white;
+        text-decoration: none;
+        box-shadow: 0 0 0 2.5px #ffc600,
+        0 0 0 8px #bd2108;
+    }
+    a:hover.nineties {
+        background-color: #010c8e;
+    }
+    a:active.nineties {
+        background-color: #00096b;
+    }
+    a.earlytwothousands {
+        padding: 0.5rem 13.0rem;
+        border-radius: 5px;
+        background-color: #0131ad;
+        color: white;
+        text-decoration: none;
+        box-shadow: 0 0 0 2.5px #ffc600,
+        0 0 0 8px #05177b;
+    }
+    a:hover.earlytwothousands {
+        background-color: #0138c2;
+    }
+    a:active.earlytwothousands {
+        background-color: #002687;
+    }
+    a.latetwothousands {
+        padding: 0.5rem 13.0rem;
+        border-radius: 5px;
+        background-color: #000342;
+        color: white;
+        text-decoration: none;
+        box-shadow: 0 0 0 2.5px #ffb300,
+        0 0 0 8px white;
+    }
+    a:hover.latetwothousands {
+        background-color: #01055a;
+    }
+    a:active.latetwothousands {
+        background-color: #000117;
+    }
+    a.home {
+        padding: 0.9rem 9rem;
+        border-radius: 12px;
+        background-color: white;
+        color: #020c42;
+        text-decoration: none;
+    }
+    a:hover.home {
+        background-color: rgb(223, 223, 223);
+    }
+    a:active.home {
+        background-color: rgb(179, 179, 179);
+    }
 }
