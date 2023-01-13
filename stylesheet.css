@@ -2,39 +2,32 @@ body {
     background-color: #00072a;
     color: white;
 }
-
 .content {
     max-width: 340px;
     margin: auto;
     text-align: center;
 }
-
 .responsive {
     max-width: 340px;
     height: auto;
 }
-
 table.mobile {
     border: 1px solid;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
-
 th {
     border: 1px solid;
     padding: 10px 5px 10px;
 }
-
 td {
     border: 1px solid;
     padding: 10px 72px 10px;
 }
-
 nav {
     text-align: center;
 }
-
 a.eighties {
     padding: 0.5rem 8.7rem;
     border-radius: 5px;
@@ -108,7 +101,6 @@ a:hover.home {
 a:active.home {
     background-color: rgb(179, 179, 179);
 }
-
 @media only screen and (min-width: 768px) {
     .content {
         max-width: 480px;
