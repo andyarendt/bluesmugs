@@ -1,5 +1,6 @@
 body {
     background-color: #00072a;
+    font-family: Helvetica, Arial, sans-serif;
     color: white;
 }
 .content {
@@ -29,6 +30,9 @@ nav {
     text-align: center;
 }
 a.eighties {
+    display: inline-block;
+    margin-bottom: 14px;
+    margin-top: 8px;
     padding: 0.5rem 8.7rem;
     border-radius: 5px;
     background-color: #000b7b;
@@ -44,6 +48,9 @@ a:active.eighties {
     background-color: #00096b;
 }
 a.nineties {
+    display: inline-block;
+    margin-bottom: 14px;
+    margin-top: 8px;
     padding: 0.5rem 8.7rem;
     border-radius: 5px;
     background-color: #000b7b;
@@ -59,6 +66,9 @@ a:active.nineties {
     background-color: #00096b;
 }
 a.earlytwothousands {
+    display: inline-block;
+    margin-bottom: 14px;
+    margin-top: 8px;
     padding: 0.5rem 8.7rem;
     border-radius: 5px;
     background-color: #0131ad;
@@ -74,6 +84,9 @@ a:active.earlytwothousands {
     background-color: #002687;
 }
 a.latetwothousands {
+    display: inline-block;
+    margin-bottom: 14px;
+    margin-top: 8px;
     padding: 0.5rem 8.7rem;
     border-radius: 5px;
     background-color: #000342;
@@ -89,6 +102,7 @@ a:active.latetwothousands {
     background-color: #000117;
 }
 a.home {
+    display: inline-block;
     padding: 0.9rem 5rem;
     border-radius: 12px;
     background-color: white;
@@ -135,6 +149,9 @@ a:active.home {
     }
     
     a.eighties {
+        display: inline-block;
+        margin-bottom: 14px;
+        margin-top: 8px;
         padding: 0.5rem 13.0rem;
         border-radius: 5px;
         background-color: #000b7b;
@@ -150,6 +167,9 @@ a:active.home {
         background-color: #00096b;
     }
     a.nineties {
+        display: inline-block;
+        margin-bottom: 14px;
+        margin-top: 8px;
         padding: 0.5rem 13.0rem;
         border-radius: 5px;
         background-color: #000b7b;
@@ -165,6 +185,9 @@ a:active.home {
         background-color: #00096b;
     }
     a.earlytwothousands {
+        display: inline-block;
+        margin-bottom: 14px;
+        margin-top: 8px;
         padding: 0.5rem 13.0rem;
         border-radius: 5px;
         background-color: #0131ad;
@@ -180,6 +203,9 @@ a:active.home {
         background-color: #002687;
     }
     a.latetwothousands {
+        display: inline-block;
+        margin-bottom: 14px;
+        margin-top: 8px;
         padding: 0.5rem 13.0rem;
         border-radius: 5px;
         background-color: #000342;
@@ -195,6 +221,7 @@ a:active.home {
         background-color: #000117;
     }
     a.home {
+        display: inline-block;
         padding: 0.9rem 9rem;
         border-radius: 12px;
         background-color: white;
